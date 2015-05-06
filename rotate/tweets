@@ -1,0 +1,11 @@
+
+/home/harajune/laboratory/twitter-streaming/tweets/*.tweets {
+    daily
+    missingok
+    rotate 90
+    compress
+    notifempty
+    postrotate
+        /sbin/restart tweetstreaming
+    endscript
+}
