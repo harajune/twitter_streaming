@@ -8,4 +8,5 @@
     postrotate
         /sbin/restart tweetstreaming
     endscript
+    su harajune harajune
 }
